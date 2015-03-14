@@ -17,3 +17,6 @@ When you installed nodejs, open the console and type the following :
 
 **`learnyounode`**
 
+License
+-------
+[MIT](./LICENSE)

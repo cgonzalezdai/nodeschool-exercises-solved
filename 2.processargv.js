@@ -1,5 +1,11 @@
-var suma = 0;
+var result = 0;
+
 for (var i = process.argv.length -1; i >= 2; i--) {
-  suma += +process.argv[i];
+  result += +process.argv[i];
 };
-console.log(suma);
+console.log(result);
+
+// var result = 0
+// for (var i = 2; i < process.argv.length; i++)
+//   result += Number(process.argv[i])
+// console.log(result)

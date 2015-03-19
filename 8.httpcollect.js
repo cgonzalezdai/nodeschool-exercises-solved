@@ -1,16 +1,16 @@
-var http = require('http');
-var URL = process.argv[2];
-var resp = "";
-var callback = function (response) {
-  response.setEncoding('utf-8');
-  response.on('data', function(data) {
-    resp += data;
-  });
-  response.on('end', function(data) {
-    console.log(resp.length);
-    console.log(resp);
-  });
-};
+var http = require('http'),
+  URL = process.argv[2],
+  callback = function (response) {
+    var resp = "";
+    response.setEncoding('utf-8');
+    response.on('data', function(data) {
+      resp += data;
+    });
+    response.on('end', function(data) {
+      console.log(resp.length);
+      console.log(resp);
+    });
+  };
 
 http.get(URL, callback);
 

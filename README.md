@@ -1,10 +1,10 @@
 # Core
 These workshoppers focus on essential skills for working with Node.js.:
 
-*# javascripting
+# javascripting
 Learn the basics of JavaScript. No previous programming experience required. *([nodeschool.io](http://nodeschool.io/#workshopper-list) solved exercises)*
 
-*# learnyounode
+# learnyounode
 Learn the basics of node: asynchronous i/o, http. *([nodeschool.io](http://nodeschool.io/#workshopper-list) solved exercises)*
 
 Requirements
